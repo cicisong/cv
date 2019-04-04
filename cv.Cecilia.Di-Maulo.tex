@@ -40,19 +40,20 @@
     allbordercolors=white    % white border color for all
 }
 
+\definecolor{mediumtealblue}{rgb}{0.0, 0.33, 0.71}
 
-\renewcommand{\cvheadingfont}{\LARGE\color{RubineRed}} % Font color of your name at the top
+\renewcommand{\cvheadingfont}{\LARGE\color{mediumtealblue}} % Font color of your name at the top
 
 
 \usepackage{hyperref} % Required for adding links	and customizing them
-\hypersetup{colorlinks, breaklinks, urlcolor=black, linkcolor=RubineRed} % Set link colors
+\hypersetup{colorlinks, breaklinks, urlcolor=black, linkcolor=mediumtealblue} % Set link colors
 
 \newlength{\datebox}\settowidth{\datebox}{10.2018-1.2018} % Set the width of the date box in each block
 
 \newcommand{\NewEntryL}[3]{\noindent\hangindent=2em\hangafter=0 \parbox{\datebox}{\normalsize \textit{#1}}\hspace{5em} #2 #3 % Define a command for each new block - change spacing and font sizes here: #1 is the left margin, #2 is the italic date field and #3 is the position/employer/location field
 \vspace{0.5em}} % Add some white space after each new entry
 
-\newcommand{\NewEntry}[3]{\noindent\hangindent=2em\hangafter=0 \parbox{\datebox}{\normalsize \textit{#1}}\hfill\color{RubineRed}\spacedlowsmallcaps{#2} \color{black}#3 % Define a command for each new block - change spacing and font sizes here: #1 is the left margin, #2 is the italic date field and #3 is the position/employer/location field
+\newcommand{\NewEntry}[3]{\noindent\hangindent=2em\hangafter=0 \parbox{\datebox}{\normalsize \textit{#1}}\hfill\color{mediumtealblue}\spacedlowsmallcaps{#2} \color{black}#3 % Define a command for each new block - change spacing and font sizes here: #1 is the left margin, #2 is the italic date field and #3 is the position/employer/location field
 \vspace{0.5em}} % Add some white space after each new entry
 
 \newcommand{\Description}[1]{\hangindent=2em\hangafter=0\raggedright\footnotesize{#1}\par\normalsize\vspace{1em}} % Define a command for descriptions of each entry - change spacing and font sizes here
@@ -91,14 +92,14 @@
 
 %\Description{Gain fundamental experience in my area of interest and expertise.}\vspace{2em} % Goal text
 
-  \fcolorbox{white}{RubineRed}{\parbox{\dimexpr\textwidth-2\fboxsep-2\fboxrule}{\tiny\textcolor{white}{\hspace{1.5 cm}}}}
+  \fcolorbox{white}{mediumtealblue}{\parbox{\dimexpr\textwidth-2\fboxsep-2\fboxrule}{\tiny\textcolor{white}{\hspace{1.5 cm}}}}
 
 \vspace{1.5em} % Extra white space betweelinksn the personal information section and goal
 %----------------------------------------------------------------------------------------
 %	WORK EXPERIENCE
 %----------------------------------------------------------------------------------------
 
-  \noindent\color{RubineRed}\spacedallcaps{Exp\'eriences de travail}\vspace{1em}
+  \noindent\color{mediumtealblue}\spacedallcaps{Exp\'eriences de travail}\vspace{1em}
 
   \color{black} \NewEntry{05.2018-...}{Ing\'{e}nieur de Production Cloud Computing}
 
@@ -136,7 +137,7 @@
 %	EDUCATION
 %----------------------------------------------------------------------------------------
 
-\color{RubineRed}\spacedallcaps{\'Etudes et Formations}\vspace{1em}
+\color{mediumtealblue}\spacedallcaps{\'Etudes et Formations}\vspace{1em}
 
 
 \color{black}
@@ -176,7 +177,7 @@
 %----------------------------------------------------------------------------------------
 %	OTHER INFORMATION
 %----------------------------------------------------------------------------------------
-\color{RubineRed}
+\color{mediumtealblue}
 \spacedallcaps{Informations Suppl\'ementaires}\vspace{1em}
 
 \vspace{1em}
