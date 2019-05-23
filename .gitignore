@@ -1,2 +1,8 @@
 cv.Cecilia.Di-Maulo.log
 cv.Cecilia.Di-Maulo.pdf
+*.out
+*.aux
+English/*.out
+English/*.aux
+English/*.log
+English/*.pdf
